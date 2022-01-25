@@ -45,7 +45,7 @@ def predict_label(img_path, method):
         return 'Common Rust'
     elif classes[0, 2]:
         return 'Gray Leaf Spot'
-    elif Classes[0, 3]:
+    elif classes[0, 3]:
         return 'Healthy'
 
     # if (method == "corn_disease"):
